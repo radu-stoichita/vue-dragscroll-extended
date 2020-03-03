@@ -1,5 +1,11 @@
 # vue-dragscroll ([Documentation](https://donmbelembe.github.io/vue-dragscroll/))
 
+This is a FORK based on original vue-dragscroll package :
+
+- Pass the shift and ctrl key modifiers to dragscrollmove custom event
+
+-----
+
 vue-dragscroll is a micro vue.js directive which
 enables scrolling via holding the mouse button ("drag and drop" or
 "click and hold" style, [online
