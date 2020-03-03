@@ -19,7 +19,7 @@ const webpackConfig = {
     library: library.name,
     libraryTarget: library.target,
     path: path.resolve(__dirname, 'dist'),
-    filename: (PROD) ? 'vue-dragscroll.min.js' : 'vue-dragscroll.js',
+    filename: (PROD) ? 'vue-dragscroll-extended.min.js' : 'vue-dragscroll-extended.js',
     publicPath: '/dist/'
   },
   externals: {
