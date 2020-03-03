@@ -1,6 +1,6 @@
 {
   "name": "vue-dragscroll-extended",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Extended version of vue-dragscroll",
   "main": "dist/vue-dragscroll-extended.min.js",
   "scripts": {
