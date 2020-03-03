@@ -152,9 +152,12 @@ const init = function (el, binding, vnode) {
           }
         }
 
-        // Emit events
+        // Prepare event
         eventDetail.deltaX = -newScrollX
         eventDetail.deltaY = -newScrollY
+        eventDetail.shiftKey = e.shiftKey
+        eventDetail.ctrlKey = e.ctrlKey
+
         u.emitEvent(vnode, 'dragscrollmove', eventDetail)
       }
     }
